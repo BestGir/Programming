@@ -1,1 +1,15 @@
-﻿// Your code here!
+﻿using System;
+class Program
+{
+    static void Main()
+    {
+        //Reading the name
+        string surname = Console.ReadLine();
+        string name = Console.ReadLine();
+        string middleName = Console.ReadLine();
+        //Data output 
+        Console.WriteLine($"Фамилия: {surname}\nИмя: {name}\nОтчество: {middleName}");
+
+
+    }
+}
